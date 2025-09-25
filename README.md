@@ -1,4 +1,4 @@
-# **VitalCare Landing Page**
+# **Healthcare Web Application Deployment on AWS**
 
 ## **Project Overview**
 
