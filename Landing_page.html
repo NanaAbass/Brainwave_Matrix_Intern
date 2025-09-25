@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCare - Your Health, Your Way</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .section-card {
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            padding: 48px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .section-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-lime-100 via-white to-green-200 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-lemon green shadow-sm py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="download.png" alt="VitalCare Logo" class="w-12 h-12 rounded-full shadow-md">
+                <h1 class="text-3xl font-bold text-gray-800 tracking-tight">VitalCare</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-green-600 font-medium transition duration-300">Features</a>
+                <a href="#doctors" class="text-600 hover:text-green-600 font-medium transition duration-300">Doctors</a>
+                <a href="#contact" class="text-gray-600 hover:text-green-600 font-medium transition duration-300">Contact</a>
+            </nav>
+            <button class="bg-green-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-green-700 transition duration-300 ease-in-out transform hover:scale-105">
+                Sign In
+            </button>
+        </div>
+    </header>
+
+    <main class="space-y-16 py-12">
+        <!-- Hero Section -->
+        <section class="text-center py-16 px-4">
+            <div class="container mx-auto">
+                <h2 class="text-5xl font-extrabold text-gray-900 leading-tight mb-4">Your Health, Simplified.</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+                    Easily manage your healthcare appointments and records from the comfort of your home. VitalCare puts you in control of your well-being.
+                </p>
+                <button class="bg-green-600 text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg hover:bg-green-700 transition duration-300 ease-in-out transform hover:scale-105">
+                    Schedule an Appointment
+                </button>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="px-4">
+            <div class="container mx-auto section-card">
+                <h3 class="text-3xl font-bold text-center mb-12">Why Choose VitalCare?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-green-100 p-4 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zM6 9a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M10 2a8 8 0 100 16 8 8 0 000-16zM6 9a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2">Easy Scheduling</h4>
+                        <p class="text-gray-500">Book, reschedule, or cancel appointments in just a few clicks, 24/7.</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="bg-green-100 p-4 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 0014 4m-8.186 10.435a8.001 8.001 0 0014.212-.862m-1.782-1.782A8.001 8.001 0 0020 14h-5.582"></path><path d="M17 10H3a1 1 0 00-1 1v2a1 1 0 001 1h14a1 1 0 001-1v-2a1 1 0 00-1-1z"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2">Secure Records</h4>
+                        <p class="text-gray-500">Access your medical history and test results in a secure, private environment.</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="bg-green-100 p-4 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z" clip-rule="evenodd"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-2">Expert Care</h4>
+                        <p class="text-gray-500">Connect with a network of experienced physicians and specialists at your fingertips.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="bg-green-600 text-white text-center py-16 px-4">
+            <div class="container mx-auto">
+                <h3 class="text-4xl font-bold mb-4">Ready to take control of your health?</h3>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">
+                    Join thousands of satisfied patients who trust VitalCare for their medical needs.
+                </p>
+                <button class="bg-white text-green-600 font-bold text-lg py-4 px-10 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out transform hover:scale-105">
+                    Get Started Today
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with Contact Info -->
+    <footer class="py-8 text-center text-gray-600 text-sm">
+        <h3 class="text-lg font-semibold text-green-800 mb-2">VitalCare</h3>
+        <p>A28/1 Old Winneba Road, Korle Gonno</p>
+        <p>Accra, Ghana</p>
+        <div class="mt-4 flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4">
+            <span class="flex items-center">
+                <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM6 9a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                (+233) 543-456-217
+            </span>
+            <span class="flex items-center">
+                <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                contact@Vitalcare.com
+            </span>
+        </div>
+        <p class="mt-4 text-xs">&copy; 2024 VitalCare. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
