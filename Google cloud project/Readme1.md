@@ -13,16 +13,17 @@ You can view the publicly deployed website here:
 ## **Project Structure**
 
 The structure of this repository holds all the necessary assets for the static site:
-
-.  
-├── index.html          # The main entry point of the website.   
+ 
+├── index.html            
 ├── css/  
-│   └── style.css       # All site stylesheets.  
+│   └── main.css   
 ├── js/  
-│   └── script.js       ## All site JavaScript files.  
-├── images/  
-│   └── \* \# All site images and assets.  
+│   └── main.js
+├── sass/  
+│   └── main.scss  
+├── images
 └── README.md
+└── LICENSE.txt
 
 ## **☁️ Deployment on Google Cloud Storage**
 
