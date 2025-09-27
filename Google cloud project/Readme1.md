@@ -15,11 +15,11 @@ You can view the publicly deployed website here:
 The structure of this repository holds all the necessary assets for the static site:
 
 .  
-├── index.html          \# The main entry point of the website.   
+├── index.html          # The main entry point of the website.   
 ├── css/  
-│   └── style.css       \# All site stylesheets.  
+│   └── style.css       # All site stylesheets.  
 ├── js/  
-│   └── script.js       \# All site JavaScript files.  
+│   └── script.js       ## All site JavaScript files.  
 ├── images/  
 │   └── \* \# All site images and assets.  
 └── README.md
