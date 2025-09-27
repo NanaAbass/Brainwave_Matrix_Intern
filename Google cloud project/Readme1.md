@@ -18,7 +18,7 @@ The structure of this repository holds all the necessary assets for the static s
 ├── css/  
 │   └── main.css   
 ├── js/  
-│   └── main.js
+│   └── main.js                                                                                                                                                                                                     
 ├── sass/  
 │   └── main.scss  
 ├── images
