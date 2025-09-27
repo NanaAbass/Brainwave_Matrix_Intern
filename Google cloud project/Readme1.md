@@ -21,8 +21,8 @@ The structure of this repository holds all the necessary assets for the static s
 │   └── main.js                                                                                                                                                                                                     
 ├── sass/  
 │   └── main.scss  
-├── images
-└── README.md
+├── images                                                                                                                                                                                                          
+└── README.md                                                                                                                                                                                                       
 └── LICENSE.txt
 
 ## **☁️ Deployment on Google Cloud Storage**
