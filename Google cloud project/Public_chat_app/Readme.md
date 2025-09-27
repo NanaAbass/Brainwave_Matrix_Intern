@@ -36,6 +36,7 @@ This project is delivered as a **single, self-contained index.html file**.
 
 1. **Open index.html:** Simply open the index.html file in any modern web browser.  
 2. **Configuration:** The application's JavaScript contains a placeholder firebaseConfig object. For full functionality, you should replace this with your actual Firebase project configuration:  
+
    // Find this block in index.html and update it with your credentials:  
    firebaseConfig \= {  
        apiKey: "YOUR\_API\_KEY",  
@@ -44,7 +45,7 @@ This project is delivered as a **single, self-contained index.html file**.
        // ... other configurations  
    };
 
-3. **Use:** The application will automatically sign you in anonymously upon loading. Click "Sign In" to switch to a registered account, or click on your default user name (e.g., User\_xxxxxx) to set a custom display name.
+4. **Use:** The application will automatically sign you in anonymously upon loading. Click "Sign In" to switch to a registered account, or click on your default user name (e.g., User\_xxxxxx) to set a custom display name.
 
 ## **Data Structure in Firestore**
 
